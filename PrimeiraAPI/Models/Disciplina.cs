@@ -7,7 +7,7 @@
         public int CargaHoraria { get; set; }
         public int? Semestre { get; set; }
         public ICollection<Cursos> Curso { get; set; } = new List<Cursos>();
-        -
+        
 
     }
 }

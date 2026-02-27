@@ -1,8 +1,8 @@
 ﻿namespace PrimeiraAPI.Models
 {
-    public class DiscplinaCurso
+    public class DisciplinaCurso
     {
-        public Guid DiscplinaCursoId { get; set; }
+        public Guid DisciplinaCursoId { get; set; }
         public Guid CursosId { get; set; }
         public Guid DisciplinaId { get; set; }
         //propriedades de navegação
